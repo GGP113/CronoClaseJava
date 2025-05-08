@@ -25,6 +25,24 @@ public class App {
         
         switch (perfil) {
             case 1:
+
+            System.out.println("\nINGRESO INFORMACIÓN PERSONAL");
+
+            System.out.println("\nIngrese su nombre completo");
+            infProfesor=sc.nextLine();
+
+            System.out.println("\nIngrese su email");
+            emailProfesor=sc.nextLine();
+
+            System.out.println("\nIngrese su telefono");
+            telefonoProfesor=sc.nextLine();
+
+            System.out.println("\nINGRESO INFORMACIÓN MATERIA");
+            System.out.println("\nIndique el nombre de la materia: ");
+            nombreMateria=sc.nextLine();
+
+            System.out.println("Indique el dia en el que se dicta la materia");
+
                 
                 break;
 
