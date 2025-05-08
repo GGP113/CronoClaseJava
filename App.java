@@ -51,6 +51,9 @@ public class App {
 
             System.out.println("\nINGRESO DE ACTIVIDADES EVALUATIVAS: ");
 
+            System.out.println("\nIngrese el tipo de evaluación del momento 1: ");
+            momento1=sc.nextLine();
+
 
 
                 
