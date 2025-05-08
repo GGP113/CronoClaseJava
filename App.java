@@ -22,6 +22,7 @@ public class App {
         System.out.println(" \nIngrese 1 ó 2 de acuerdo con su perfil: \n \t1)Profesor \n \t2)Estudiante");
 
         perfil = sc.nextInt();
+        sc.nextLine();
         
         switch (perfil) {
             case 1:
@@ -41,7 +42,16 @@ public class App {
             System.out.println("\nIndique el nombre de la materia: ");
             nombreMateria=sc.nextLine();
 
-            System.out.println("Indique el dia en el que se dicta la materia");
+            System.out.println("\nIndique el dia en el que se dicta la materia");
+
+            diaMateria=sc.nextLine();
+
+            System.out.println("\nIndique  la jornada de la materia: diurna o nocturna");
+            jornadaMateria=sc.nextLine();
+
+            System.out.println("\nINGRESO DE ACTIVIDADES EVALUATIVAS: ");
+
+
 
                 
                 break;
