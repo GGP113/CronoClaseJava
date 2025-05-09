@@ -112,7 +112,12 @@ public class App {
             System.out.println("\nIngrese el plazo para el desarrollo de la actividad en días : ");
             plazoTres=sc.nextInt();
 
-                
+                System.out.println("\n****Resumen de Informacion****:\n Información del profesor: \n nombre: " + infProfesor +"\n email: " + emailProfesor + "\n telefono: " + telefonoProfesor );
+                sc.nextLine();
+                System.out.println("\n****Informacion de la materia****:\n Nombre de la materia: " + nombreMateria + "\n Día de la materia: " + diaMateria + "\n Jornada: " + jornadaMateria);
+                System.out.println("\n****Resumen de actividades y Fechas evaluativas****\n Tipo de evaluación del Momento 1: " + momento1 + "\nFecha de evaluacion: " + diaFechaUno + "/" + mesFechaUno + "/2025" + "\n Plazo para desarrollo: " + plazoUno);
+                System.out.println("\n Momento 2 \n Tipo de evaluación del Momento 2: " + momento2 + "\n Fecha de evaluacion: " + diaFechaDos + "/" + mesFechaDos + "/2025" + "\n Plazo para desarrollo: " + plazoDos);
+                System.out.println("\n Momento 1 \n Tipo de evaluación del Momento 3: " + momento3 + "\n Fecha de evaluacion: " + diaFechaTres + "/" + mesFechaTres + "/2025" + "\n Plazo para desarrollo: " + plazoTres);
                 break;
 
             case 2:
